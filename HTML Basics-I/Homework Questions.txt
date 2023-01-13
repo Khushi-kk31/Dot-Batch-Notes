@@ -1,0 +1,5 @@
+HTML Basics-I Homework:-
+
+1. What is Description List?
+2. Which html elements do not have attribute?
+3. What will happen when we close an empty tag?
