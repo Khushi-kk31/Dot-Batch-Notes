@@ -1,0 +1,24 @@
+Question 1: What is Description List?
+
+Answer: 
+
+Description Lists are used: 
+- To give definitions to particular terms that we have defined in our lists.
+- To have a dictionary type of format(term and definition of term)
+Description Lists are used with <dl> tag in html. 
+Description terms is represented as <dt> tag and terms of data is represented as <dd> tag.
+
+Question 2: Which html element do not have attribute?
+
+Answer:
+
+The HEAD element has no attributes and the start and end tag can always be safely 
+omitted as they can be readily inferred by the parser. Self closing tag like <br> tag
+can also be reffered to have no attribute.
+
+Question 3: What will happen when we close an empty tag?
+
+Answer:
+
+Adding the closing tags to the empty elements will be invalid syntax. Empty elements are self-closing 
+or void and not container tags.
