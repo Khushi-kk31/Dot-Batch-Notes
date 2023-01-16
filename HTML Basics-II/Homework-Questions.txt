@@ -1,4 +1,14 @@
 Homework Questions:-
 
 1. Why html doesn't have a heading like h7, h8, h9?
-
+2. How can we fill red color in horizontal rule tag?
+3. Explore about following tags:
+  i. Citation tag
+  ii. blockquote
+  iii. quotation tag
+  iv. address tag
+  v. abbreviation tag
+ 4. How to add favicon to your html file?
+ 5. Make a biography using html.
+ 6. Make a table using html.
+ 7. Make a feedback form using html.
