@@ -11,4 +11,3 @@ Homework Questions:-
  4. How to add favicon to your html file?
  5. Make a biography using html.
  6. Make a table using html.
- 7. Make a feedback form using html.
