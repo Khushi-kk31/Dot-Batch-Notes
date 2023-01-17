@@ -1,0 +1,38 @@
+Solution:
+
+Question 1. Why html doesn't have a heading like h7, h8, h9?
+
+Answer: The heading tag h6 is already very small, therefore there is no need of tags like h7, h8, h9 as the text would be unreadable.
+
+Question 2. How can we fill red color in horizontal rule tag?
+
+Answer:
+	Using color attribute, we can add color to horizontal rule
+			<hr color="red">
+
+Question 3. Explore about following tags:
+
+Answer:
+	 i. Citation tag:- <cite> tag define title of creative work(eg. book, poem, song).
+	ii. Block Quotation tag:- <blockquote> tag specifies a section that is quoted from another source.
+       iii. Inline Quotation tag:- <q> tag is used for inline(short) quotation.
+        iv. address tag:- <address> tag provides contact information.
+         v. Abrreviation tag:- <abbr> tag define abbreviation.
+
+Question 4. How to add favicon to your html file?
+
+Answer: The <link> tag is used to insert favicon; it is a self-closing tag
+	Example:
+		<link rel="icon" type="image/x-icon" href="logo.png">
+	
+		Here, rel -> This attribute names relationship of the linked document to current document.
+		     type -> This attribute define the type of content linked to document.
+		     href -> This attribute specifies the URL of the linked document.
+
+Question 5. Make a biography using html.
+
+Answer: [Code has been provided with images used]
+
+Question 6. Make a table using html.
+
+Answer: [Code has been provided with images used]
