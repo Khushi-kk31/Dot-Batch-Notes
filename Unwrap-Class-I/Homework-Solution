@@ -1,0 +1,36 @@
+Homework Solution:
+
+1. 
+
+Ans: To embed audio in HTML, we use the <audio> tag. Before HTML5, audio cannot be added to web pages in the Internet Explorer.
+
+     Syntax:
+      <audio>
+          <source src="file_name" type="audio_file_type">
+      </audio>
+      
+      Attributes:
+      autoplay - When the page is loaded. It specifies to play audio as soon as possible. 
+      controls - It displays audio control. 
+      loop - It will start the audio again when it is finished. 
+      muted - When the page is loaded audio will be automatically muted. 
+      preload - It specifies how the author thinks the audio will be loaded when the page is ready. 
+      
+      To embed video in HTML, we use the <video> tag. It contains one or more video sources at a time using <source> tag.
+      It supports MP4, WebM, and Ogg in all modern browsers. 
+      
+      Syntax:
+      <video>
+         <source src="file_name" type="video_file_type">
+      </video>
+      
+      Attributes:
+      autoplay - When the page is loaded. It specifies to play video as soon as possible. 
+      controls - It displays video control such as play, pause, and stop.
+      loop - It will start the video again when it is finished. 
+      muted -	When the page is loaded video will be automatically muted. 
+      poster - It specifies an image will be shown until video play. 
+      preload	- It specifies how the author thinks the video will be loaded when the page is ready. 
+      src - It specifies the URL of the audio file. 
+      width - It specifies the width of the video area. The default value of width is ‘auto’.
+      height - It specifies the height of the video area. The default value of height is ‘auto’.
