@@ -1,0 +1,22 @@
+1. Make a table using html.
+
+Ans: {Check "TablePractice" folder}
+
+2. Explore Rowgroups.
+
+Ans:  There is no such element. Table rows may be grouped into a table head, table foot, and one or more table body sections,
+      using the thead, tfoot and tbody elements, respectively.The table head and table foot should contain information about the table's columns.
+      The table body should contain rows of table data.
+      When present, each thead, tfoot, and tbody contains a row group. Each row group must contain at least one row, defined by the tr element.
+      
+3.  Explore last page of cheatsheet.
+
+Ans: In HTML documents, some symbols may not be directly available 
+      on the keyboard. However, there are several ways to include 
+      these symbols in a document. These include using the symbol's 
+      entity name, decimal value, or hexadecimal value.
+          • Copyright Symbol: &copy;
+          • Dollar Symbol: &dollar;
+          • Ampersand Symbol: &amp;
+          • Greater than Symbol: &gt;
+          • Less than Symbol: &lt;
