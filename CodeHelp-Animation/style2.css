@@ -1,0 +1,127 @@
+.container{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.uppercircle{
+    width: 32%;
+    height: 70%;
+    /* background-color: bisque; */
+    border: solid 1px rgb(214, 207, 207);
+    border-radius: 50%;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    animation: rotate 60s infinite linear;
+}
+.upperlogo{
+    height: 100%;
+    width: 70%;
+    
+    animation: logo-rotate 60s infinite linear;
+}
+@keyframes logo-rotate {
+    from{
+        transform: rotate(360deg);
+    }
+}
+#amazon{
+    position: relative;
+    right: -20%;
+    bottom: -50%;
+}
+#apple{
+    position: relative;
+    top: -35%;
+    right: -52%;
+}
+#netflix{
+    position: relative;
+    left: -20%;
+    top: -10%;
+}
+#microsoft{
+    position: relative;
+    top: -35%;
+}
+#google{
+    position: relative;
+    left: -45%;
+    bottom: -55%;
+}
+#meta{
+    position: relative;
+    /* bottom: -10%; */
+    right: -30%;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(-360deg);
+    }
+} 
+
+.boundary{
+    height: 75%;
+    width: 75%;
+    position: absolute;
+    background-color: rgba(241,228,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.innercircle{
+    height: 65%;
+    width: 65%;
+    border-radius: 50%;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+
+    animation: rotation 30s infinite linear;
+}
+.innerlogo{
+    height: 11rem;
+    width: 11rem;
+    animation: logo-rotate-inner 60s infinite linear;
+}
+@keyframes logo-rotate-inner {
+    from{
+        transform: rotate(-360deg);
+    }
+}
+#flipkart{
+    position: relative;
+    top: -50%;
+    left: -25%;
+}
+#linkedin{
+    position: relative;
+    right: -15%;
+    top: -10%;
+}
+#cortana{
+    position: relative;
+    left: -20%;
+    bottom: -10%;
+}
+#adobe{
+    position: relative;
+    left: -60%;
+    top: -30%;
+}
+@keyframes rotation {
+    from{
+        transform: rotate(360deg);
+    }
+}
+
